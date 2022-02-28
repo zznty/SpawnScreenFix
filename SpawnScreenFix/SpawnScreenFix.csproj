@@ -1,0 +1,199 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>7.3</LangVersion>
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\DirectShowLib.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="EmptyKeys.UserInterface, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\EmptyKeys.UserInterface.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="EmptyKeys.UserInterface.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\EmptyKeys.UserInterface.Core.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="EOSSDK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\EOSSDK.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="GameAnalytics.Mono, Version=1.0.7702.25490, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\GameAnalytics.Mono.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="HavokWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\HavokWrapper.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.CodeAnalysis, Version=2.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+            <HintPath>..\Bin64\Microsoft.CodeAnalysis.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.CodeAnalysis.CSharp, Version=2.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+            <HintPath>..\Bin64\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="ProtoBuf.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\ProtoBuf.Net.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="ProtoBuf.Net.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\ProtoBuf.Net.Core.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="RecastDetourWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\RecastDetourWrapper.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="RestSharp, Version=106.6.10.0, Culture=neutral, PublicKeyToken=598062e77f915f75">
+            <HintPath>..\Bin64\RestSharp.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\Sandbox.Common.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="Sandbox.Game, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\Sandbox.Game.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="Sandbox.Graphics, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\Sandbox.Graphics.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="Sandbox.RenderDirect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\Sandbox.RenderDirect.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+            <HintPath>..\Bin64\SharpDX.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SharpDX.D3DCompiler, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+            <HintPath>..\Bin64\SharpDX.D3DCompiler.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SharpDX.Desktop, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+            <HintPath>..\Bin64\SharpDX.Desktop.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SharpDX.Direct3D11, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+            <HintPath>..\Bin64\SharpDX.Direct3D11.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SharpDX.DirectInput, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+            <HintPath>..\Bin64\SharpDX.DirectInput.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+            <HintPath>..\Bin64\SharpDX.DXGI.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SharpDX.XAudio2, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+            <HintPath>..\Bin64\SharpDX.XAudio2.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SharpDX.XInput, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+            <HintPath>..\Bin64\SharpDX.XInput.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SixLabors.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\SixLabors.Core.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SixLabors.ImageSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\SixLabors.ImageSharp.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SpaceEngineers.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\SpaceEngineers.Game.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="SpaceEngineers.ObjectBuilders, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\SpaceEngineers.ObjectBuilders.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="Steamworks.NET, Version=15.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\Steamworks.NET.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Ansel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Ansel.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Audio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Audio.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.EOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.EOS.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Game.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Input, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Input.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Library.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Math.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Mod.Io, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Mod.Io.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.NativeWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.NativeWrapper.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Network, Version=1.0.53.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Network.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Platform.Windows.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Render, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Render.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Render11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Render11.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Scripting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Scripting.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.Steam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.Steam.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="VRage.UserInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Bin64\VRage.UserInterface.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="PluginHub.xml" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Lib.Harmony" Version="2.2.0" />
+    </ItemGroup>
+</Project>
